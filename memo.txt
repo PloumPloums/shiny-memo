@@ -49,3 +49,10 @@ commande : git remote add origin <url>
 
 description : configure le projet pour l'associer à un dépôt git sur github. Le dépôt distant est appelé "origin" (c'est une convention). 
 C'est une configuration à faire une seule fois par projet git, et seulement si on souhaite le partager/sauvegarder sur github.
+
+=================
+
+commande : git push -u origin master
+description : configure notre projet pour qu'il s'envoie par défaut sur le dépôt "origin" et sur la branche "master".
+Cette commande n'est à entrer qu'une fois par projet.
+Cette commande nécessite d'avoir ajouté un dépôt avec la commande "git remote".
